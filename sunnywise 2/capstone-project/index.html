@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../images/favicon-32x32.png"
+    />
+    <title>Sunnyside agency landing page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+  </head>
+
+  <body>
+    <!-- Begin of header section -->
+
+    <header class="header">
+      <div class="flexbox">
+        <div class="logo-img">
+          <img
+            src="./images/logo.svg"
+            alt="sunnyside agency logo"
+            width="180px"
+            class="logo"
+          />
+        </div>
+        <img
+          src="./images/icon-hamburger.svg"
+          alt="hamburger"
+          class="hamburger-btn"
+          width="5px"
+          onclick="myFunction()"
+        />
+        <nav class="header-nav" id="menu">
+          <ul class="nav-list header-nav-list">
+            <li><a href="#" class="nav-col">About</a></li>
+            <li><a href="#" class="nav-col">Services</a></li>
+            <li><a href="#" class="nav-col">Projects</a></li>
+            <li class="contact-text">
+              <a href="#" class="contact">CONTACT</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="intro-box" id="intro-box">
+        <h1 class="intro-text">WE ARE CREATIVES</h1>
+      </div>
+      <div class="arrow" id="arrow">
+        <img src="./images/icon-arrow-down.svg" alt="arrow down" height="40%" />
+      </div>
+    </header>
+
+    <!-- End of header section -->
+
+    <!-- Begin of main section -->
+
+    <main class="main">
+      <article class="article1">
+        <!-- grid -->
+
+        <div class="grid1-container">
+          <section class="grid1-items item1">
+            <header class="grid-header1">Transform your brand</header>
+            <p class="desc1">
+              We are a full-service creative agency specializing in helping
+              brands grow fast. Engage your clients through compelling visuals
+              that do most of the marketing for you.
+            </p>
+            <a href="#" class="more1"
+              >LEARN MORE
+              <hr class="hr1" />
+            </a>
+          </section>
+
+          <section class="grid1-items item2"></section>
+
+          <section class="grid1-items item3"></section>
+
+          <section class="grid1-items item4">
+            <header class="grid-header1">
+              Stand out to the right audience
+            </header>
+            <p class="desc1">
+              Using a collaborative formula of designers, researchers,
+              photographers, videographers, and copywriters, we’ll build and
+              extend your brand in digital places.
+            </p>
+            <a href="#" class="more2"
+              >LEARN MORE
+              <hr class="hr2" />
+            </a>
+          </section>
+
+          <section class="grid1-items item5">
+            <div>
+              <header class="grid-header2">Graphic Design</header>
+              <p class="desc2">
+                Great design makes you memorable. We deliver artwork that
+                underscores your brand message and captures potential clients’
+                attention.
+              </p>
+            </div>
+          </section>
+          <section class="grid1-items item6">
+            <div>
+              <header class="grid-header2">Photography</header>
+              <p class="desc2">
+                Increase your credibility by getting the most stunning,
+                high-quality photos that improve your business image.
+              </p>
+            </div>
+          </section>
+        </div>
+
+        <!-- End of grid -->
+      </article>
+      <!-- Begin of flex container -->
+      <article class="article2">
+        <header class="test-header">CLIENT TESTIMONIALS</header>
+        <div class="flex-container">
+          <section class="flex-items">
+            <img src="./images/image-emily.jpg" alt="emily" />
+            <p>
+              We put our trust in Sunnyside and they delivered, making sure our
+              needs were met and deadlines were always hit.
+            </p>
+            <div>
+              <p class="client-name">Emily R.</p>
+              <p class="client-occup">Marketing Director</p>
+            </div>
+          </section>
+
+          <section class="flex-items">
+            <img src="./images/image-thomas.jpg" alt="thomas" />
+            <p>
+              Sunnyside’s enthusiasm coupled with their keen interest in our
+              brand’s success made it a satisfying and enjoyable experience.
+            </p>
+            <div>
+              <p class="client-name">Thomas S.</p>
+              <p class="client-occup">Chief Operating Officer</p>
+            </div>
+          </section>
+
+          <section class="flex-items">
+            <img src="./images/image-jennie.jpg" alt="Jennie" />
+            <p>
+              Incredible end result! Our sales increased over 400% when we
+              worked with Sunnyside. Highly recommended!
+            </p>
+            <div>
+              <p class="client-name">Jennie F.</p>
+              <p class="client-occup">Business Owner</p>
+            </div>
+          </section>
+        </div>
+
+        <!-- End of second grid -->
+      </article>
+    </main>
+
+    <!-- End of main section -->
+
+    <!-- Begin of footer section -->
+
+    <!-- Begin of image gallery -->
+    <div class="Image-gallery-row">
+      <img
+        src="images/image-gallery-milkbottles.jpg"
+        alt="milk bottle"
+        width="25%"
+        height="50%"
+      />
+      <img
+        src="images/image-gallery-orange.jpg"
+        alt="orange"
+        width="25%"
+        height="50%"
+      />
+      <img
+        src="images/image-gallery-cone.jpg"
+        alt="cone"
+        width="25%"
+        height="50%"
+      />
+      <img
+        src="images/image-gallery-sugarcubes.jpg"
+        alt=""
+        width="25%"
+        height="50%"
+      />
+    </div>
+    <!-- End of image gallery-->
+    <footer>
+      <div class="logo-nav">
+        <img
+          src="./images/logo2.svg"
+          alt="sunnyside agency logo"
+          width="180px"
+        />
+        <nav class="footer-nav">
+          <ul class="nav-list footer-nav-list">
+            <li>About</li>
+            <li>Services</li>
+            <li>Projects</li>
+          </ul>
+        </nav>
+      </div>
+      <div class="icon-space">
+        <i class="fab fa-facebook-square"
+          ><img src="./images/icon-facebook.svg" alt=""
+        /></i>
+        <i class="fab fa-instagram"
+          ><img src="./images/icon-instagram.svg" alt=""
+        /></i>
+        <i class="fab fa-twitter"
+          ><img src="./images/icon-twitter.svg" alt=""
+        /></i>
+        <i class="fab fa-pinterest"
+          ><img src="./images/icon-pinterest.svg" alt=""
+        /></i>
+      </div>
+    </footer>
+
+    <!-- End of footer section -->
+  </body>
+</html>
